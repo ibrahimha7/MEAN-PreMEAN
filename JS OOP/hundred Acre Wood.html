@@ -9,8 +9,8 @@
         var tigger = {character: "Tigger"};
         var pooh = {character: "Winnie the Pooh"};
         tigger.north = pooh;
-        var piglet = { character: "Piglet"};        // create Piglet's home object with just the character attribute
-        piglet.east = tigger.north;          // Piglet's east attribute is Tigger's north attribute, which is a memory address
+        var piglet = { character: "Piglet"};       
+        piglet.east = tigger.north;          
         tigger.north.west = piglet;
         
         var bees = {character: "Bees"};
